@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style file -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="brandlogo" src="./brand.png" alt=""></a>
+            <button class="navbar-toggler fs-6 pb-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <h6>Menu</h6>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav flex-fill d-flex justify-content-center gap-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Vehicles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Energy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Charging</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">discovery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">shop</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-circle-question"
+                                style="color: rgb(0, 0, 0);"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-globe"
+                                style="color: rgb(0, 0, 0);"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-regular fa-circle-user"
+                                style="color: rgb(0, 0, 0);"></i></a>
+                    </li>
+            </div>
+    </nav>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://media.wired.com/photos/5a0e6fe27d6fd0312d8bba41/master/w_1600%2Cc_limit/Roadster_Hero.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption hero-text">
+                    <h1>Model 3</h1>
+                    <p>0% APR Available</p>
+                    <button class="btn btn-primary">Order Now</button>
+                    <button class="btn btn-light text-black">Learn More</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/tesla-cybertruck-awd.jpg?quality=90&strip=all&crop=0,0.0096283458501816,100,99.9807433083"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption hero-text">
+                    <h1>Cyber Truck</h1>
+                    <p>0% APR Available</p>
+                    <button class="btn btn-primary">Order Now</button>
+                    <button class="btn btn-light text-black">Learn More</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://ev-database.org/img/auto/Tesla_Model_3_Standard_2026/Tesla_Model_3_Standard_2026-01.jpg"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption hero-text">
+                    <h1>Model Y</h1>
+                    <p>0% APR Available</p>
+                    <button class="btn btn-primary">Order Now</button>
+                    <button class="btn btn-light text-black">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="card m-3  rounded" style="background-color: rgb(253, 250, 250);">
+        <div class="row g-0">
+            <div class="col-12 col-lg-4">
+                <div class="card-body">
+                    <h1 class="card-title">Full Self-Driving (Supevised)</h1>
+                    <p class="card-text">Makes every drive easier. Subscribe for $99/mo.</p>
+                    <div class="mt-5 ">
+                        <h1 class="card-title">7X</h1>
+                        <p class="card-text">Fewer Collisions</p>
+
+                        <h1 class="card-title">11,169,200,200</h1>
+                        <p class="card-text">Miles Driven</p>
+                        <button class="btn btn-dark text-light px-5">Schedule Demo</button>
+                        <button class="btn btn-light btn-outline-dark text-dark px-5">Learn more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8">
+                <video src="./video1.mp4" controls muted autoplay class="rounded w-100"></video>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex gap-3  m-3 cards">
+        <div class="card text-bg-dark " style="width: 600px; height: 700px;">
+            <img src="https://www.electrive.com/media/2025/08/tesla-model-3-china.jpg.webp"
+                class="card-img h-100 object-fit-cover" alt="...">
+            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h1 class="card-title text-light">Model 3</h1>
+                <p class="card-text text-light">Lease From $329/mo</p>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-primary px-5 text-light">Order Now</button>
+                    <button class="btn btn-light text-dark px-5">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <div class="card text-bg-dark " style="width: 600px; height: 700px;">
+            <img src="https://img-cdn.evfy.in/tesla%20y-1.webp" class="card-img h-100 object-fit-cover" alt="...">
+            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h1 class="card-title text-light">Model Y</h1>
+                <p class="card-text text-light">Lease From $329/mo</p>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-primary px-5 text-light">Order Now</button>
+                    <button class="btn btn-light text-dark px-5">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <div class="card text-bg-dark " style="width: 600px; height: 700px;">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/tesla-cybertruck-base-awd-2-6998925eb467f.jpeg?crop=0.670xw:1.00xh;0.168xw,0&resize=1200:*"
+                class="card-img h-100 object-fit-cover" alt="...">
+            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h1 class="card-title text-light">Cybertruck</h1>
+                <p class="card-text text-light">Lease From $329/mo</p>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-primary px-5 text-light">Order Now</button>
+                    <button class="btn btn-light text-dark px-5">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="askq gap-5 p-2">
+        <button class="btn btn-outline-dark btn-mute"><i class="fa-solid fa-envelope" style="color: rgb(0, 0, 0);"></i>
+            Ask any question</button>
+        <button class="btn btn-outline-dark btn-mute"><i class="fa-solid fa-car"
+                style="color: rgba(21, 0, 247, 0.843);"></i> Schedule a Driven Today</button>
+    </div>
+    <div class="text-black-50 text-center pb-5">
+        <footer> Price reflects monthly subscription, subject to terms and conditions. Price and feature availability
+            subject to change.</footer>
+    </div>
+    <div class="text-black-50 mb-5 pb-2 links">
+        <a href="">Tesla 2026</a>
+    
+    <a href="">privacy and legal</a><a href="">vehicle recalls</a><a href="">contact</a><a href="">News</a><a href="">Get Updates</a><a href="">Locations </a><a href="">Learn</a>
+    </div>
+</body>
+
+</html>
